@@ -1,0 +1,41 @@
+#encabezado{
+    background-color: #F54958;
+    padding: 10px;
+    height: 200px;
+}
+#divIzq{
+    background-color: #EBB720;
+    width: 40%;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+#divDer{
+    background-color: #4E5ADE;
+    width: 60%;
+    float: right;
+    height: 200px;
+}
+.Principal{
+    background-color: beige;
+    display: flex;
+    flex-direction: row; /* para invertir las columnas column-reverse*/ /*row para ponerlo en filas*/ /* row-reverse para invertirlo*/
+    flex-wrap: wrap; /* nowrap se mantiene las filas y con el wrap se adaptan*/
+    justify-content: center /* center lo alinia al centro*/ /*space-between se distribuyen*/ /*space-around*/
+}
+.div2{
+    background-color: rgb(215, 213, 201);
+    height: 200px;
+}
+.div3{
+    background-color: rgb(243, 163, 113);
+    height: 200px;
+}
+.derecha{
+    flex: 1;
+    margin-right: 260px;
+}
+.izquierda{
+    flex: 1;
+    margin-left: 500px;
+}
